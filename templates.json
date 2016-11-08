@@ -1,0 +1,22 @@
+[
+  {
+    "title": "Registry Raspi",
+    "description": "Docker image registry for Raspi",
+    "logo": "https://cloudinovasi.id/assets/img/logos/registry.png",
+    "image": "nimblestratus/rpi-registry",
+    "ports": [
+      "5000/tcp"
+    ]
+  },
+  {
+    "title": "Jenkins Raspi",
+    "description": "Open-source continuous integration tool",
+    "logo": "https://cloudinovasi.id/assets/img/logos/jenkins.png",
+    "image": "dilgerm/rpi-jenkins",
+    "ports": [
+      "8080/tcp",
+      "50000/tcp"
+    ],
+    "volumes": ["/var/jenkins_home"]
+  }
+]
