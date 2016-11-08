@@ -1,3 +1,3 @@
 # docker-at-baytna
 
-    docker-compose -d up
+    docker-compose up -d
